@@ -1,0 +1,13 @@
+h1 {
+    font-size: 72px;
+}
+h2 {
+    color: red
+}
+p{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid blue;
+
+}
