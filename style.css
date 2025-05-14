@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    // in css sheets you will ALWAYS make body margin 0
+}
+
 h1 {
     font-size: 72px;
 }
@@ -11,3 +16,5 @@ p{
     border: 20px solid blue;
 
 }
+
+// to create columns you can use class sections (similar to id section)
