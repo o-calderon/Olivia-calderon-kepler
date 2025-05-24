@@ -3,8 +3,30 @@ body {
 }
 header {
   position: sticky;
-  margin: 10px;
+  margin: 10px;}
 
+/* media query for bigger sreens*/
+@media (max-width: 2000px) {
+  body {
+    margin: 12px;
+    background: lightgoldenrodyellow;
+
+  }
+}
+/* media query for phone*/
+@media (max-width: 800px) {
+    main{
+      flex-direction: column;
+       background: lightblue;
+    }
+  header {
+    text-align: left;
+    padding: 24px;
+    }
+  body {
+    margin: 8px;
+    background: lightblue;
+  }
 }
 h1 {
   background: white;
